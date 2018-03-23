@@ -22,7 +22,7 @@ resource "aws_instance" "example" {
     Name = "HelloWorld"
   }
 
-  lifecycle {
-    create_before_destroy = true
-  }
+//  lifecycle {
+//    create_before_destroy = true
+//  }
 }
